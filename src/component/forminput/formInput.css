@@ -1,0 +1,38 @@
+.group {
+	 position: relative;
+	 width: 82%;
+	 right: 8px;
+}
+.form-input {
+	 background: none;
+	 background-color:transparent;
+	 color: white;
+	 font-size: 18px;
+	 padding: 10px;
+	 padding-bottom: 5px;
+	 display: block;
+	 width: 100%;
+	 border: none;
+	 border-radius: 10px;
+	 margin: 10px 0;
+	 border: solid rgba(75, 75, 75, 0.9);
+	 line-height: 33px;
+	 position: absolute;
+	 top: 5px;
+	 	}
+.form-input:focus{
+	background-color: rgba(0, 0, 0, 0.452);
+	outline: none;
+}
+
+
+.lbl{
+	display: flex;
+	font-size: small;
+	padding-top: 20px;
+}
+
+
+ .group input[type='password'] {
+	 letter-spacing: 0.3em;
+}

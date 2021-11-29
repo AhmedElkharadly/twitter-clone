@@ -1,0 +1,121 @@
+.all{
+    color: #d9d9d9;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 90vh;
+    width: 45%;
+    top: 5%;
+    right: 30%;
+    border-radius: 20px;
+}
+
+.bc{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./login.png);
+}
+.bal{
+    width: 45%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 40px; 
+    align-items: center;  
+}
+
+.back{
+    transform: rotate(45deg);
+    text-decoration: none;
+    font-size: 25px;
+    color: #d9d9d9;
+    height: 33px;
+    width:33px;
+    text-align: center;
+    transition: .1s;
+}
+
+.back:hover{
+    background-color: rgba(91, 112, 131, 0.4);
+    border-radius: 50%;
+}
+
+.logos{
+    width: 30px;
+    height: 50px;
+    fill: #d9d9d9;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 1.8vw;
+    padding-left: 40px;
+}
+
+.frm{
+    text-align: center;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.fb{
+    color: #d9d9d9;
+    text-decoration: none;
+    border-bottom: solid #d9d9d9;
+    padding: 5px;
+    height: 30px;
+}
+.lnk{
+    font-size: 3vh;
+    width: 90%;
+    height: 40px;
+    padding-top: 5px;
+
+}
+.lnk:hover{
+    background-color: rgba(91, 112, 131, 0.4);
+    border-radius: 20px;
+
+}
+
+@media(max-width: 768px) {
+    .all{
+        background-color:black;
+        height: 95vh;
+        width: 100%;
+        position:static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+        
+    .back{
+        transform: rotate(45deg);
+        text-decoration: none;
+        font-size: 30px;
+        height: 30px;
+    }
+     
+    h1{
+        font-size: 5vw;
+        padding:30px;
+
+    }      
+
+    .logos{
+        width: 30px;
+        height: 50px;
+    }
+
+
+}
