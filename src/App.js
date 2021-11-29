@@ -10,7 +10,6 @@ function App() {
     <div className='app'>
         <LeftPane/>
       <div>
-        
         <Routes >
           <Route exact path="/home">Home Page</Route>
           <Route exact path="/explore">explore Page</Route>
