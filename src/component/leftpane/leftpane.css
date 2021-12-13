@@ -1,33 +1,52 @@
-.left-pane {
-    min-height: 100vh;
-}  
-.containerx {
-    position: fixed;
-}
-.logo4 {
-    height: 1.9em;
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
-    margin-left: 4em;
-    fill: #d9d9d9;
+.leftpane{
+    padding-left: 30px;
 }
 
-nav {
-    padding-left: 3.3em;
+.containerx {
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+    min-height: 100vh;
+    border-right: 1px solid #d9d9d93f;
+}
+
+header {
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: 1em;
+    border-radius: 100%;
+}
+
+.logo4 {
+    padding: 5px;
+    height: 1.9em;
+    fill: #d9d9d9;
+}
+header:hover{
+    background-color: #d9d9d918;
+}
+
+.logo6 {
+    height: 1.3em;
+    padding-right: 10px;
 }
 
 .logo5 {
     height: 1.3em;
     margin-right: 0.9em;
-    fill: #d9d9d9;
+}
 
+nav {
+    padding-left: .5em;
+    letter-spacing: .5px;
 }
 
 nav > *, button.more {
     text-decoration: none;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 500;
     width: 100%;
     cursor: pointer;
 }
@@ -38,14 +57,15 @@ span {
     height: 2.4em;
     width: fit-content;
     padding: 0 0.7em;
+    
 }
 
 nav > *:hover span, button.more:hover span {
     color: #1da1f2;
     border-radius: 1.5em;
-    background: #192734;
+    background: #d9d9d917;
+    transition:.3s ease-out;
 }
-  
 
 button {
     background: unset;
@@ -53,55 +73,78 @@ button {
 }
   
 button.tweet {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #1da1f2;
     color: #fff;
-    width: 14em;
-    height: 3em;
+    width: 12em;
+    height: 2.7em;
     border-radius: 1.5em;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
     margin-top: 0.5em;
-    margin-left: 3.7em;
+    margin-left: 1em;
     cursor: pointer;
 }
+
+button.tweet:hover{
+    background: #1da0f2ee;
+    transition:.3s ease-out;
+}
   
+
 footer {
-position: fixed;
-bottom: 1.5em;
-margin-left: 0.9em;
-display: grid;
-grid-template-columns: 1fr 1fr;
+    position: fixed;
+    bottom: 1.5em;
+    margin-left: 1em;
 }
 
+
 .account {
-    display: flex;
     align-items: center;
+    height: 3.3em;
     color: #fff;
     font-size: 1em;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: .8fr 2fr .5fr;
 }
+
+.account:hover{
+    background-color: #d9d9d911;
+    transition:.2s ease-out;
+    cursor: pointer;
+
+}
+
 .photo {
     border-radius: 100%;
     height: 2.5em;
     width: 2.5em;
-    background: #192734;
-    margin-left: 3.5em;
+    margin: 3px;
+    margin-left: .5em;
 }
 
-img {
+.imgs {
     width: 100%;
-    height: 100%;
-    border-radius: 100%;
+    border-radius:100%;
+}
+.imgs:hover{
+    cursor: pointer;
 }
  
 .name {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
+    text-align: start;
 }
- 
+
 .username {
-    margin: 0;
-    padding: 0;
+    padding:0 3px;
+    text-align: start;
     color: #8899a6;
-    font-weight: 200;
+    margin-top: 2px;
+    font-size: .95em;
 
 }

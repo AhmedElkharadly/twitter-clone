@@ -4,7 +4,12 @@
 }
 
 .app{
-    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    color: #d9d9d9;
+    max-width: 1400px;
     display: grid;
     grid-template-columns: 1.1fr 2.2fr 1.4fr;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
 }

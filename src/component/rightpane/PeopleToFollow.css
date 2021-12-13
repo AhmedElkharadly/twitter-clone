@@ -1,0 +1,31 @@
+.PeopleToFollow{
+    padding: 20px;
+    display: flex;
+    padding-top: 0;
+    align-items: center;
+}
+
+.PTF_text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 15px;
+    padding-top:15px ;
+    width: fit-content;
+}
+
+.PTF_btn{
+    color: rgba(0, 0, 0, 0.767);
+    background-color: #fff;
+}
+
+.PTF_btn:hover{
+    background-color: rgba(211, 211, 211, 0.842);
+    transition: .1s all ease-in;
+}
+
+.PTF_img{
+    margin: 10px;
+    margin-left: 0;
+    
+}

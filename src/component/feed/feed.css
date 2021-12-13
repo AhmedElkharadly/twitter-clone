@@ -1,0 +1,27 @@
+.feed{
+    color: aliceblue;
+}
+
+
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid #9d9d9d4d;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    padding: .8em;
+    height: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header:hover{
+    cursor: pointer;
+}
+
+.toptweet{
+    width: 25px;
+    height: 25px;
+}
