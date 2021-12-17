@@ -5,15 +5,17 @@ const Posts = ({name, username, verify, timeset, text, pictures, avatar}) => {
     return ( 
         <div className='post'>
             <div className='photo avatar'>
-            <img alt="Ahmed Ehab Elkharadly" draggable="true" className='avatar imgs'
-                src="https://pbs.twimg.com/profile_images/1467935505052545031/RDwnhybQ_normal.jpg"/>
+            <img 
+                alt="" 
+                className='avatar imgs'
+                src={avatar}/>
             </div> 
             <div className='post_body'>
                 <div className='post_header'>
                     <div className='post_text'>
                         <span className='displayname'>{name}</span>
-                        <span className='username'>{username}</span>
-                        <span className='username'>{timeset}</span>
+                        <span className='username'>{username} {timeset} </span>
+                        
                     </div>
                     <div className="post_headerDescription">
                         <p>{text}</p>

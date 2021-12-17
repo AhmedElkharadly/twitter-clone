@@ -17,3 +17,12 @@
     padding-top: 0;
     direction: rtl;
 }
+.WN_news:hover{
+    cursor: pointer;
+    color: #dfdedebd;
+}
+
+.dots{
+    cursor: pointer;
+
+}
