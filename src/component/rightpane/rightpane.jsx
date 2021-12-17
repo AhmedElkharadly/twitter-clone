@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import './rightpane.css'
 import SearchBar from "./searchBar";
 import WidgetNews from "./WidgetNews";
 import PeopleToFollow from './PeopleToFollow'
+
+
 const RightPane = (props) => {
     return (
         <div className='rp_header'>
@@ -19,9 +22,18 @@ const RightPane = (props) => {
             </div>
             <div className='WTF'>
               <h2 className='Wheader'>Who to follow</h2>
-              <PeopleToFollow name="Ahmed Elkharadly" username="@elkharadliation"/>
-              <PeopleToFollow name="Menna Refaat" username="@menna.elsaied" />
-              <PeopleToFollow name="Mohamed Ehab" username="@mohamed"/>
+              <PeopleToFollow 
+              avatar="https://pbs.twimg.com/profile_images/1467935505052545031/RDwnhybQ_normal.jpg"
+              name="Ahmed Elkharadly" 
+              username="@elkharadliation"/>
+              <PeopleToFollow 
+              avatar="https://pbs.twimg.com/profile_images/955364167703318528/pFS-Ttm__normal.png" 
+              name="Menna Refaat" 
+              username="@menna.elsaied" />
+              <PeopleToFollow 
+              avatar="https://pbs.twimg.com/profile_images/1397469365927354369/27u3la1R_normal.jpg" 
+              name="Mohamed Ehab" 
+              username="@mohamed"/>
             </div>
             <div className="rp_footer">
               <nav className='rp_nav'>

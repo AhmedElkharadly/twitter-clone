@@ -6,7 +6,7 @@ const WidgetNews = ({title, news, ...otherProps} ) => {
         <div className='WidgetNews'>
             <div className='WN_header'>
                 <h6>{title}</h6>
-                <h4>...</h4>
+                <h4 className="dots">...</h4>
             </div>
             <div className='WN_news'>
                 <h2>{news}</h2>
